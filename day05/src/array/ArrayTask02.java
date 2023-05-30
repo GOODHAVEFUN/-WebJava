@@ -10,34 +10,30 @@ public class ArrayTask02 {
 		// 4. 1부터 5까지의 수라면 해당하는 영어단어 출력 후 종료
 		// 5. 아니라면 잘못입력했습니다 출력 후 다시 입력받도록 하기
 
-//		String[] words = { "apple", "long", "bye", "call", "banna" };
-//		Scanner sc = new Scanner(System.in);
-//		int input = 0;                
-//
-//		for (; true;) {
-//			input = sc.nextInt();
-//			if (input > 0 && input < 6) {
-//
-//				System.out.println(words[input + 1]);
-//				break;
-//
-//			} else {
-//				System.out.println("잘못입력하셨습니다");
-//			}
-//		}
-
-		String[] words = { "one", "two", "three", "four", "five" };
+		String[] words = {"one", "two", "three", "four", "five" };
 		Scanner sc = new Scanner(System.in);
 		int number = 0;
 		String word = null;
-
+		
 		do {
 			System.out.println("1부터 5까지의 숫자 입력 : ");
 			number = sc.nextInt();
-		} while (number < 1 || number > 5);
-
-		word = words[number - 1];
+		}while(number < 1 || number > 5);
+		
+		word = words[number -1];
 		System.out.println("입력한 숫자에 해당하는 영어 단어 : " + word);
-
+		
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+

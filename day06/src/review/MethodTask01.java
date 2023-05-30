@@ -1,95 +1,84 @@
 package review;
 
-import java.util.Scanner;
-
 public class MethodTask01 {
-//	public static void main(String[] args) {
-//		Scanner sc = new Scanner(System.in);
-//		MethodTask01 mt1 = new MethodTask01();
-//
-////		int num = sc.nextInt();
-////		System.out.println(mt1.changeSing(num));
-//		
-//		int []avg = {1,2,3,4,5};
-//		System.out.println(mt1.getAvg(avg));
-//
-//	}
-//
-//	// 1. 음수를 양수로, 양수를 음수로 바꾸는 메소드
-//	// 메소드명 changeSing
-//	int changeSing(int num) {
-//		num *= -1;
-//		return num;
-//	}
-//
-//	// 2. 5개의 정수 중 평균값을 반환하는 메소드
-//	// getAvg
-//	double getAvg(int[] num) {
-//		int sum = 0;
-//		double avg = 0.0;
-//		for (int i : num) {
-//			sum += i;
-//			System.out.println(sum);
-//		}
-//		avg = ((double)sum/num.length);
-//		return avg;
-//	}
-//
-//	// 3. 정수 배열 중 최대값과 최소값 출력하는 메소드
-//	// Integer.Max_Value;
-//	// Integer.Min_Value;
-
 	public static void main(String[] args) {
 		MethodTask01 mt = new MethodTask01();
-		System.out.println(mt.changeSing(10));
-		System.out.println(mt.changeSing(-10));
-
-		int[] ar = { 1, 2, 3, 4, 5 };
+//		System.out.println(mt.changeSing(10));
+//		System.out.println(mt.changeSing(-10));
+//		
+		int[] ar = {3, 2, 5, 1, 4, 5, 10};
 		System.out.println(mt.getAvg(ar));
 
+		mt.printMinMax(ar);
+		
+		int max = Integer.MAX_VALUE;
+		System.out.println(max); //2147483647
+		int min  = Integer.MIN_VALUE;
+		System.out.println(min);
+		long max1 = Long.MAX_VALUE;
+		System.out.println(max1);
+		
 	}
-
-	// 1. 음수를 양수로, 양수를 음수로 바꾸는 메소드
-	// 메소드명 changeSing
+	
+	//1. 음수를 양수로, 양수를 음수로 바꾸는 메소드
+	//메소드명 changeSing
 	int changeSing(int num) {
 		return num * -1;
 	}
-
-	// 2. 5개의 정수 중 평균값을 반환하는 메소드
-	// getAvg
+	
+	//2. 5개의 정수 중 평균값을 반환하는 메소드
+	//getAvg
 	double getAvg(int[] ar) {
-		if (ar.length != 5) {
+		if(ar.length != 5) {
 			return 0.0;
 		}
-
+		
 		int total = 0;
-		for (int i = 0; i < ar.length; i++) {
+		for(int i = 0; i < ar.length; i++) {
 			total += ar[i];
 		}
-		return (double) total / ar.length;
+		return (double)total / ar.length;
 	}
-
-	// 3. 정수 배열 중 최대값과 최소값 출력하는 메소드
-	// printMinMax
-
+	
+	//3. 정수 배열 중 최대값과 최소값 출력하는 메소드
+	//printMinMax
+	
 	void printMinMax(int[] ar) {
 		int min = ar[0];
 		int max = ar[0];
-
-		for (int i = 0; i < ar.length; i++) {
-//	         if(ar[i] < min) {
-//	            min = ar[i];
-//	         }
-//	         if(ar[i] > max) {
-//	            max = ar[i];
-//	         }
-			// 삼항연산자
+		
+		for(int i = 0; i < ar.length; i++) {
+//			if(ar[i] < min) {
+//				min = ar[i];
+//			}
+//			if(ar[i] > max) {
+//				max = ar[i];
+//			}
+			//삼항연산자
 			min = min > ar[i] ? ar[i] : min;
 			max = max < ar[i] ? ar[i] : max;
-
 		}
-		System.out.println("최소값 : " + min);
-		System.out.println("최대값 : " + max);
+		System.out.println("최소값 : "+min);
+		System.out.println("최대값 : "+max);
 	}
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

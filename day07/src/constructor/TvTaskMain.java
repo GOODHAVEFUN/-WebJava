@@ -8,7 +8,7 @@ public class TvTaskMain {
 		// 전원이 켜진 상태에서만 채널 up, down 가능하도록
 		// 채널 down 1보다 큰 값일 경우에만 채널내리기 가능
 		// 잘못된 번호 선택시 잘못 입력하셨습니다 출력
-
+	
 		Scanner sc = new Scanner(System.in);
 		TvTask tt = new TvTask("red", 25, 25000);
 		tt.info();
@@ -27,26 +27,28 @@ public class TvTaskMain {
 					tt.powerOnOff();
 				}
 				break;
-
+				
 			case 2:
-				if (tt.power) {
+				if(tt.power) {
 					System.out.println("채널 : " + tt.channelUp());
-				} else {
+				}else {
 					System.out.println("채널을 켜주세요");
 				}
 				break;
+				
 			case 3:
-				if (tt.power && tt.channel > 0) {
+				if(tt.power) {
 					System.out.println("채널 : " + tt.channelDown());
-				} else {
+				}else {
 					System.out.println("채널을 켜주세요");
 				}
 				break;
+				
 			default:
 				System.out.println("잘못입력하셨습니다");
 				break;
 			}
-
+			
 		}
 	}
 }
