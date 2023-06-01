@@ -1,16 +1,13 @@
 package castingTest2;
 
-public class Cat {
+public class Cat extends Animal{
 
-	public String name;
-
-	public Cat(String string) {
-		// TODO Auto-generated constructor stub
+	public Cat(String name) {
+		super(name);
 	}
 
-	public void crying() {
-		// TODO Auto-generated method stub
-		
+	@Override
+	void crying() {
+		System.out.println("야옹");
 	}
-
 }
