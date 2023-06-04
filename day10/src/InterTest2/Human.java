@@ -4,8 +4,7 @@ public class Human implements Walk{
 
 	@Override
 	public void walk() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("사람은 걸어다닌다");
 	}
 
 }

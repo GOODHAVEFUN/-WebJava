@@ -1,52 +1,38 @@
 package InnerTest;
 
 public class Main {
-   //필드
-   int instanceVar; //인스턴스 변수
-   static int staticVar; //스태틱 변수
-   
-   class InstanceInner{   //OuterClass 내부에서 정의한 인스턴스 내부 클래스
-      
-   }
-   
-   static class StaticInner{   //OuterClass 내부에서 정의한 스태틱 내부 클래스
-      
-   }
-   
-   //메소드
-   void instanceMethod() {
-      //필드
-      int localVar; //지역변수
-      
-      //클래스
-      class LocalInner{   //메소드 내부에서 정의한 로컬 내부 클래스
-         
-      }
-      
-      LocalInner li = new LocalInner(); //로컬 내부클래스의 객체를 참조하는 로컬 변수
-      InstanceInner ii = new InstanceInner(); 
-      //OuterClass 클래스 내부의 인스턴스 내부 클래스의 객체를 참조하는 인스턴스 변수
-      StaticInner si = new StaticInner();
-      //OuterClass 클래스 내부의 스태틱 내부 클래스의 객체를 참조하는 인스턴스 변수
-   }
-   
-   //스태틱 메소드
-   static void staticMethod() { 
-      //필드
-      int localVar;   //지역변수
-//      instanceVar = 20;
-      staticVar = 20;
-      localVar = 30;
-      
-      class LocalInner{   //메소드 내부에서 정의한 로컬 내부 클래스
-         
-      }
-      
-      LocalInner li = new LocalInner();   //로컬 내부클래스의 객체를 참조하는 로컬변수
-//      InstanceInner ii = new InstanceInner();
-      StaticInner si = new StaticInner();
-      //OuterClass 클래스의 내부의 스태틱 내부클래스의 객체를 참조하는 로컬변수
-      
-   }
-   
+	public static void main(String[] args) {
+		//OuterClass의 인스턴스 생성
+		OuterClass o = new OuterClass();
+		System.out.println(o); //참조값
+		
+		//OuterClass의 참조변수 o를 이용해서 InstanceInner클래스의 
+		//인스턴스를 생성
+		OuterClass.InstanceInner ii = o.new InstanceInner();
+		System.out.println(ii);
+		
+		//OuterClass의 인스턴스를 생성하고 그 인스턴스를 이용해서
+		//InstanceInner 클래스의 인스턴스를 생성
+		OuterClass.InstanceInner ii2 = new OuterClass().new InstanceInner();
+		System.out.println(ii2);
+		
+		//Static 클래스의 인스턴스를 생성
+		OuterClass.StaticInner si = new OuterClass.StaticInner();
+		System.out.println(si);
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
