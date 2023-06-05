@@ -1,17 +1,17 @@
 package InterTest2;
 
-public class Amphibian implements Walk, Swim {
+public class Amphibian implements Walk, Swim{
+
+//	@Override
+//	public void swim() {
+//		System.out.println("개구리는 땅에서 다닌다");
+//		
+//	}
 
 	@Override
 	public void walk() {
-		// TODO Auto-generated method stub
+		System.out.println("개구리는 헤엄도 친다");
 		
 	}
-
-	@Override
-	public void swim() {
-		// TODO Auto-generated method stub
-		
-	}
-
+	
 }

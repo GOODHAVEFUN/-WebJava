@@ -1,6 +1,5 @@
 package InterTest2;
 
 public interface Swim {
-	void swim();
-	
+	void walk();
 }

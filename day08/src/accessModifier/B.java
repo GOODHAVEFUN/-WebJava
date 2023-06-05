@@ -1,10 +1,9 @@
 package accessModifier;
 
 public class B {
-
-	// 필드
-	public int var1 = 1;
-	int var2 = 1;
+	//필드
+	public int var1 = 1;  
+	int var2 = 2;
 	protected int var3 = 3;
 	private int var4 = 4;
 	
@@ -21,5 +20,7 @@ public class B {
 	private void method4() {
 		System.out.println("private 메소드 호출");
 	}
-
 }
+
+
+
