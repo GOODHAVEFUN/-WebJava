@@ -23,7 +23,7 @@ import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Main {
+public class Memo {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
@@ -48,7 +48,6 @@ public class Main {
 				case 4:
 					System.out.println("프로그램종료");
 					sc.close();
-					System.exit(0);
 					break;
 				default:
 					System.out.println("잘못입력");
