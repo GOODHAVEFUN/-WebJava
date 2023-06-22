@@ -5560,7 +5560,11 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+<<<<<<< HEAD
 !SESSION 2023-06-22 02:33:47.037 -----------------------------------------------
+=======
+!SESSION 2023-06-22 14:15:58.378 -----------------------------------------------
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 eclipse.buildId=4.27.0.20230309-1200
 java.version=17.0.6
 java.vendor=Eclipse Adoptium
@@ -5568,12 +5572,21 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
+<<<<<<< HEAD
 !ENTRY ch.qos.logback.classic 1 0 2023-06-22 02:33:47.630
 !MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
 
 !ENTRY org.eclipse.core.resources 4 567 2023-06-22 02:33:50.364
 !MESSAGE Workspace restored, but some problems occurred.
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.364
+=======
+!ENTRY ch.qos.logback.classic 1 0 2023-06-22 14:15:59.008
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE Could not read metadata for '.org.eclipse.egit.core.cmp'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException(/.org.eclipse.egit.core.cmp)[567]: java.lang.Exception: The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -5627,7 +5640,11 @@ org.eclipse.core.internal.resources.ResourceException(/.org.eclipse.egit.core.cm
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.365
+=======
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
 java.lang.Exception: The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -5681,7 +5698,11 @@ java.lang.Exception: The project description file (.project) for '.org.eclipse.e
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.365
+=======
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE Could not read metadata for 'classRoom'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException(/classRoom)[567]: java.lang.Exception: The project description file (.project) for 'classRoom' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -5735,7 +5756,11 @@ org.eclipse.core.internal.resources.ResourceException(/classRoom)[567]: java.lan
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.365
+=======
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE The project description file (.project) for 'classRoom' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
 java.lang.Exception: The project description file (.project) for 'classRoom' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -5789,7 +5814,11 @@ java.lang.Exception: The project description file (.project) for 'classRoom' is 
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.366
+=======
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE Could not read metadata for 'day01'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException(/day01)[567]: java.lang.Exception: The project description file (.project) for 'day01' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -5843,7 +5872,11 @@ org.eclipse.core.internal.resources.ResourceException(/day01)[567]: java.lang.Ex
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.366
+=======
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE The project description file (.project) for 'day01' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
 java.lang.Exception: The project description file (.project) for 'day01' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -5897,7 +5930,11 @@ java.lang.Exception: The project description file (.project) for 'day01' is miss
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.366
+=======
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE Could not read metadata for 'day01_kys'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException(/day01_kys)[567]: java.lang.Exception: The project description file (.project) for 'day01_kys' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -5951,7 +5988,11 @@ org.eclipse.core.internal.resources.ResourceException(/day01_kys)[567]: java.lan
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.366
+=======
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE The project description file (.project) for 'day01_kys' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
 java.lang.Exception: The project description file (.project) for 'day01_kys' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -6005,7 +6046,11 @@ java.lang.Exception: The project description file (.project) for 'day01_kys' is 
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.366
+=======
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE Could not read metadata for 'day02'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException(/day02)[567]: java.lang.Exception: The project description file (.project) for 'day02' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -6059,7 +6104,11 @@ org.eclipse.core.internal.resources.ResourceException(/day02)[567]: java.lang.Ex
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.367
+=======
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE The project description file (.project) for 'day02' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
 java.lang.Exception: The project description file (.project) for 'day02' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -6113,7 +6162,11 @@ java.lang.Exception: The project description file (.project) for 'day02' is miss
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.367
+=======
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE Could not read metadata for 'day03'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException(/day03)[567]: java.lang.Exception: The project description file (.project) for 'day03' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -6167,7 +6220,11 @@ org.eclipse.core.internal.resources.ResourceException(/day03)[567]: java.lang.Ex
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.367
+=======
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE The project description file (.project) for 'day03' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
 java.lang.Exception: The project description file (.project) for 'day03' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -6221,7 +6278,11 @@ java.lang.Exception: The project description file (.project) for 'day03' is miss
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.367
+=======
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE Could not read metadata for 'day04'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException(/day04)[567]: java.lang.Exception: The project description file (.project) for 'day04' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -6275,7 +6336,11 @@ org.eclipse.core.internal.resources.ResourceException(/day04)[567]: java.lang.Ex
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.367
+=======
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE The project description file (.project) for 'day04' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
 java.lang.Exception: The project description file (.project) for 'day04' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -6329,7 +6394,11 @@ java.lang.Exception: The project description file (.project) for 'day04' is miss
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.368
+=======
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE Could not read metadata for 'day05'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException(/day05)[567]: java.lang.Exception: The project description file (.project) for 'day05' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -6383,7 +6452,11 @@ org.eclipse.core.internal.resources.ResourceException(/day05)[567]: java.lang.Ex
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.368
+=======
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE The project description file (.project) for 'day05' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
 java.lang.Exception: The project description file (.project) for 'day05' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -6437,7 +6510,11 @@ java.lang.Exception: The project description file (.project) for 'day05' is miss
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.368
+=======
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE Could not read metadata for 'day06'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException(/day06)[567]: java.lang.Exception: The project description file (.project) for 'day06' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -6491,7 +6568,11 @@ org.eclipse.core.internal.resources.ResourceException(/day06)[567]: java.lang.Ex
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.368
+=======
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE The project description file (.project) for 'day06' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
 java.lang.Exception: The project description file (.project) for 'day06' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -6545,7 +6626,11 @@ java.lang.Exception: The project description file (.project) for 'day06' is miss
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.368
+=======
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE Could not read metadata for 'day07'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException(/day07)[567]: java.lang.Exception: The project description file (.project) for 'day07' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -6599,7 +6684,11 @@ org.eclipse.core.internal.resources.ResourceException(/day07)[567]: java.lang.Ex
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.369
+=======
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE The project description file (.project) for 'day07' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
 java.lang.Exception: The project description file (.project) for 'day07' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -6653,7 +6742,11 @@ java.lang.Exception: The project description file (.project) for 'day07' is miss
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.369
+=======
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE Could not read metadata for 'day08'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException(/day08)[567]: java.lang.Exception: The project description file (.project) for 'day08' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -6707,7 +6800,11 @@ org.eclipse.core.internal.resources.ResourceException(/day08)[567]: java.lang.Ex
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.369
+=======
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE The project description file (.project) for 'day08' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
 java.lang.Exception: The project description file (.project) for 'day08' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -6761,7 +6858,11 @@ java.lang.Exception: The project description file (.project) for 'day08' is miss
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.369
+=======
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE Could not read metadata for 'day09'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException(/day09)[567]: java.lang.Exception: The project description file (.project) for 'day09' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -6815,7 +6916,11 @@ org.eclipse.core.internal.resources.ResourceException(/day09)[567]: java.lang.Ex
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.369
+=======
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE The project description file (.project) for 'day09' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
 java.lang.Exception: The project description file (.project) for 'day09' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -6869,7 +6974,11 @@ java.lang.Exception: The project description file (.project) for 'day09' is miss
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.369
+=======
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE Could not read metadata for 'day10'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException(/day10)[567]: java.lang.Exception: The project description file (.project) for 'day10' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -6923,7 +7032,11 @@ org.eclipse.core.internal.resources.ResourceException(/day10)[567]: java.lang.Ex
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.369
+=======
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE The project description file (.project) for 'day10' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
 java.lang.Exception: The project description file (.project) for 'day10' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -6977,7 +7090,11 @@ java.lang.Exception: The project description file (.project) for 'day10' is miss
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.369
+=======
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE Could not read metadata for 'day11'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException(/day11)[567]: java.lang.Exception: The project description file (.project) for 'day11' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -7031,7 +7148,11 @@ org.eclipse.core.internal.resources.ResourceException(/day11)[567]: java.lang.Ex
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.370
+=======
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE The project description file (.project) for 'day11' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
 java.lang.Exception: The project description file (.project) for 'day11' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -7085,7 +7206,11 @@ java.lang.Exception: The project description file (.project) for 'day11' is miss
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.370
+=======
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE Could not read metadata for 'day12'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException(/day12)[567]: java.lang.Exception: The project description file (.project) for 'day12' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -7139,7 +7264,11 @@ org.eclipse.core.internal.resources.ResourceException(/day12)[567]: java.lang.Ex
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.370
+=======
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE The project description file (.project) for 'day12' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
 java.lang.Exception: The project description file (.project) for 'day12' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -7193,7 +7322,11 @@ java.lang.Exception: The project description file (.project) for 'day12' is miss
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.370
+=======
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE Could not read metadata for 'day13'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException(/day13)[567]: java.lang.Exception: The project description file (.project) for 'day13' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -7247,7 +7380,11 @@ org.eclipse.core.internal.resources.ResourceException(/day13)[567]: java.lang.Ex
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.370
+=======
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE The project description file (.project) for 'day13' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
 java.lang.Exception: The project description file (.project) for 'day13' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -7301,7 +7438,11 @@ java.lang.Exception: The project description file (.project) for 'day13' is miss
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.370
+=======
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE Could not read metadata for 'day14'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException(/day14)[567]: java.lang.Exception: The project description file (.project) for 'day14' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -7355,7 +7496,11 @@ org.eclipse.core.internal.resources.ResourceException(/day14)[567]: java.lang.Ex
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.370
+=======
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE The project description file (.project) for 'day14' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
 java.lang.Exception: The project description file (.project) for 'day14' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -7409,7 +7554,11 @@ java.lang.Exception: The project description file (.project) for 'day14' is miss
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.370
+=======
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE Could not read metadata for 'day15'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException(/day15)[567]: java.lang.Exception: The project description file (.project) for 'day15' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -7463,7 +7612,11 @@ org.eclipse.core.internal.resources.ResourceException(/day15)[567]: java.lang.Ex
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.370
+=======
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE The project description file (.project) for 'day15' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
 java.lang.Exception: The project description file (.project) for 'day15' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -7517,7 +7670,11 @@ java.lang.Exception: The project description file (.project) for 'day15' is miss
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.370
+=======
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE Could not read metadata for 'day16'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException(/day16)[567]: java.lang.Exception: The project description file (.project) for 'day16' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -7571,7 +7728,11 @@ org.eclipse.core.internal.resources.ResourceException(/day16)[567]: java.lang.Ex
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.370
+=======
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.621
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE The project description file (.project) for 'day16' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
 java.lang.Exception: The project description file (.project) for 'day16' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -7625,7 +7786,11 @@ java.lang.Exception: The project description file (.project) for 'day16' is miss
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.370
+=======
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.637
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE Could not read metadata for 'test1'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException(/test1)[567]: java.lang.Exception: The project description file (.project) for 'test1' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -7679,7 +7844,11 @@ org.eclipse.core.internal.resources.ResourceException(/test1)[567]: java.lang.Ex
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.370
+=======
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.637
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE The project description file (.project) for 'test1' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
 java.lang.Exception: The project description file (.project) for 'test1' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -7733,7 +7902,11 @@ java.lang.Exception: The project description file (.project) for 'test1' is miss
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.371
+=======
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.637
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE Could not read metadata for 'test2'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException(/test2)[567]: java.lang.Exception: The project description file (.project) for 'test2' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -7787,7 +7960,11 @@ org.eclipse.core.internal.resources.ResourceException(/test2)[567]: java.lang.Ex
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.371
+=======
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.637
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE The project description file (.project) for 'test2' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
 java.lang.Exception: The project description file (.project) for 'test2' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -7841,7 +8018,11 @@ java.lang.Exception: The project description file (.project) for 'test2' is miss
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.371
+=======
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.637
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE Could not read metadata for 'testApi'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException(/testApi)[567]: java.lang.Exception: The project description file (.project) for 'testApi' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -7895,7 +8076,11 @@ org.eclipse.core.internal.resources.ResourceException(/testApi)[567]: java.lang.
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 02:33:50.371
+=======
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-22 14:16:01.637
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE The project description file (.project) for 'testApi' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
 java.lang.Exception: The project description file (.project) for 'testApi' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -7950,12 +8135,21 @@ java.lang.Exception: The project description file (.project) for 'testApi' is mi
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
+<<<<<<< HEAD
 !ENTRY ch.qos.logback.classic 1 0 2023-06-22 02:33:50.600
 !MESSAGE Logback config file: D:\web_1400_lwj\java\workspacelwj2\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
 
 !ENTRY org.eclipse.jface 2 0 2023-06-22 02:33:51.711
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2023-06-22 02:33:51.711
+=======
+!ENTRY ch.qos.logback.classic 1 0 2023-06-22 14:16:01.928
+!MESSAGE Logback config file: D:\web_1400_lwj\java\workspacelwj2\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-06-22 14:16:03.364
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-22 14:16:03.364
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
@@ -7973,7 +8167,11 @@ Binding(CTRL+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jface 2 0 2023-06-22 02:33:51.711
+=======
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-22 14:16:03.364
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
 !MESSAGE A conflict occurred for ALT+SHIFT+R:
 Binding(ALT+SHIFT+R,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
@@ -7992,6 +8190,7 @@ Binding(ALT+SHIFT+R,
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.egit.ui 2 0 2023-06-22 02:33:54.335
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\com'. If this is
@@ -8388,3 +8587,70 @@ java.lang.Exception: The project description file (.project) for 'day16' is miss
 	at org.eclipse.ui.actions.OpenResourceAction$1.runInWorkspace(OpenResourceAction.java:279)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+=======
+!ENTRY org.eclipse.egit.ui 2 0 2023-06-22 14:16:05.567
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-06-22 14:23:22.296 -----------------------------------------------
+eclipse.buildId=4.27.0.20230309-1200
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-06-22 14:23:22.911
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-06-22 14:23:24.868
+!MESSAGE Logback config file: D:\web_1400_lwj\java\workspacelwj2\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-06-22 14:23:26.227
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-22 14:23:26.227
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-22 14:23:26.227
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-06-22 14:23:28.075
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+>>>>>>> 512ff33cac6d2787bb609cdfc34804dd2b6cf4ae
