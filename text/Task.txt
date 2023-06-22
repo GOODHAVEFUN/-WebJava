@@ -184,4 +184,4 @@ public class ArrayListTask {
 		System.out.println(al);
 	}
 }
-
+//위코드는 ArrayList al정수를 받는 객체를 생성한후 난수(1~30) 7개를 중복없이 목록에 저장한후 오름차순으로 정렬후 출력합니다 
