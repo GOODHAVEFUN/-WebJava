@@ -4,7 +4,7 @@ public class CastingTest3 {
 
 	public static void main(String[] args) {
 		//다른 자료형 -> 문자열 형변환
-		int intStr1 = 10;
+		int intStr1 = 10;	
 		long longStr1 = 10L;
 		System.out.println(intStr1 + longStr1); //연산
 		
