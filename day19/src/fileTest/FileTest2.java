@@ -12,8 +12,7 @@ public class FileTest2 {
 		fw.write('h');
 		fw.write('i');
 		fw.write("hello");
-		//문자열을 입력하면 알아서 문자 단위로  끊어준다
-		
+		//문자열을 입력하면 알아서 문자 단위로 끊어줌
 		fw.close();
 		
 		FileReader fr = new FileReader(new File("test2.txt"));
@@ -24,7 +23,23 @@ public class FileTest2 {
 		System.out.println((char)fr.read());
 		System.out.println((char)fr.read());
 		System.out.println((char)fr.read());
-		System.out.println((char)fr.read());
-		System.out.println((char)fr.read());
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

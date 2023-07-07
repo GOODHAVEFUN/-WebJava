@@ -16,7 +16,6 @@ public class Main {
          System.out.println("4. 프로필 수정");
          System.out.println("5. 종료");
          System.out.println("번호 입력 : ");
-         
 
 //         String choiceInput = sc.nextLine();
 //         int choice = Integer.parseInt(choiceInput);

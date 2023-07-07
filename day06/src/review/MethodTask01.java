@@ -55,7 +55,7 @@ public class MethodTask01 {
 //				max = ar[i];
 //			}
 			//삼항연산자
-			min = min > ar[i] ? ar[i] : min;
+			min = min > ar[i] ? ar[i] : min; //{3, 2, 5, 1, 4, 5, 10} 3>3 거짓  3, 3>2 참 2 ,2>5 거짓 2 , 2>1 참 1 , 1>4 거짓 1 
 			max = max < ar[i] ? ar[i] : max;
 		}
 		System.out.println("최소값 : "+min);
