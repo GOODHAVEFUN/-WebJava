@@ -62,6 +62,10 @@ class UserManager {
 					loginUser = user;
 					System.out.println("로그인되었습니다");
 					return;
+				} else if (user.getPassword().equals(newPassword)) {
+					loginUser = user;
+					System.out.println("로그인되었습니다");
+					return;
 				} else {
 //               System.out.println("비밀번호가 일치하지 않습니다");
 //               return;
@@ -97,7 +101,20 @@ class UserManager {
 		this.newPassword = newPassword;
 		System.out.println("프로필이 업데이트 되었습니다");
 	}
-
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

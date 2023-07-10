@@ -12,6 +12,7 @@ public class SplitTest {
 //		System.out.println(word[1]);
 		for(String i : word) {
 			System.out.println(i);
+			
 		}
 	}
 }
